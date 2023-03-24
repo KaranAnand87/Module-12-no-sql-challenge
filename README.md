@@ -6,7 +6,7 @@ Deliverable 2: A Jupyter notebook containing code that performs the exploratory 
 
 I did the project in three parts:
 
-## Part 1: Database and Jupyter Notebook Set Up
+# Part 1: Database and Jupyter Notebook Set Up
 
 Included the mongoimport command text you used to import establishments.json in a markdown cell at the beginning of your Jupyter notebook file
 
@@ -26,7 +26,7 @@ Used find_one() and pprint to display one document in the establishments collect
 
 The establishments collection is assigned to a variable
 
-## Part 2: Update the Database (20 points)
+# Part 2: Update the Database (20 points)
 
 Supplied data for the "Penang Flavours" restaurant to be correctly inserted into the establishments collection
 
@@ -40,11 +40,11 @@ A count_documents() check is performed before and after the removal of the Dover
 
 An update_many() query is performed to convert the latitude and longitude fields from strings to decimal numbers 
 
-## Part 3: Exploratory Analysis (55 points)
+# Part 3: Exploratory Analysis (55 points)
 
 Found out:
 
-# Question 1: Which establishments have a hygiene score equal to 20? 
+## Question 1: Which establishments have a hygiene score equal to 20? 
 
 A query is correctly performed to find the establishments with a hygiene score of 20 
 
@@ -54,7 +54,7 @@ The first result is printed using pprint
 
 The results are converted to a Pandas DataFrame and displays the first 10 rows 
 
-# Question 2: Which establishments in London have a RatingValue greater than or equal to 4? 
+## Question 2: Which establishments in London have a RatingValue greater than or equal to 4? 
 
 A query is correctly performed to find the establishments in London with a RatingValue greater than or equal to 4 
 
@@ -66,7 +66,7 @@ The first result is printed using pprint
 
 The results are converted to a Pandas DataFrame and displays the first 10 rows 
 
-# Question 3: What are the top 5 establishments with a RatingValue of '5', sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"? 
+## Question 3: What are the top 5 establishments with a RatingValue of '5', sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"? 
 
 A query is correctly performed to find the establishments within 0.01 degree of the "Penang Flavours" restaurant 
 
@@ -80,7 +80,7 @@ All five results are printed using pprint
 
 The results are converted to a Pandas DataFrame and displayed 
 
-# Question 4: How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas. 
+## Question 4: How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas. 
 
 An aggregation pipeline is built to include a match query, group, and sort 
 
