@@ -26,7 +26,7 @@ Used find_one() and pprint to display one document in the establishments collect
 
 The establishments collection is assigned to a variable
 
-# Part 2: Update the Database (20 points)
+# Part 2: Update the Database
 
 Supplied data for the "Penang Flavours" restaurant to be correctly inserted into the establishments collection
 
@@ -40,7 +40,7 @@ A count_documents() check is performed before and after the removal of the Dover
 
 An update_many() query is performed to convert the latitude and longitude fields from strings to decimal numbers 
 
-# Part 3: Exploratory Analysis (55 points)
+# Part 3: Exploratory Analysis 
 
 Found out:
 
